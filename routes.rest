@@ -1,0 +1,11 @@
+GET https://cse341-2023-4zrm.onrender.com/contacts
+
+# GET https://cse341-2023-4zrm.onrender.com/contacts/650caa43ccdc33969d76cbc8
+# GET https://cse341-2023-4zrm.onrender.com/contacts/650caa43ccdc33969d76cbc9
+# GET https://cse341-2023-4zrm.onrender.com/contacts/650caa43ccdc33969d76cbca
+
+# Local system
+# GET http://localhost:8080/contacts
+# GET http://localhost:8080/contacts/650caa43ccdc33969d76cbc8
+# GET http://localhost:8080/contacts/650caa43ccdc33969d76cbc9
+# GET http://localhost:8080/contacts/650caa43ccdc33969d76cbca
