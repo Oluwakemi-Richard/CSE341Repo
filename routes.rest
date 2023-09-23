@@ -1,11 +1,20 @@
-#GET https://cse341-2023-4zrm.onrender.com/contacts
+//Render
+### GET contacts
+GET https://cse341-2023-4zrm.onrender.com/contacts
 
-# GET https://cse341-2023-4zrm.onrender.com/contacts/650caa43ccdc33969d76cbc8
-# GET https://cse341-2023-4zrm.onrender.com/contacts/650caa43ccdc33969d76cbc9
-# GET https://cse341-2023-4zrm.onrender.com/contacts/650caa43ccdc33969d76cbca
+### GET by Id first contact
+GET https://cse341-2023-4zrm.onrender.com/contacts/650caa43ccdc33969d76cbc8
+### GET by Id second contact
+GET https://cse341-2023-4zrm.onrender.com/contacts/650caa43ccdc33969d76cbc9
+### GET by Id third contact
+GET https://cse341-2023-4zrm.onrender.com/contacts/650caa43ccdc33969d76cbca
 
-# Local system
-# GET http://localhost:8080/contacts
-# GET http://localhost:8080/contacts/650caa43ccdc33969d76cbc8
-# GET http://localhost:8080/contacts/650caa43ccdc33969d76cbc9
-# GET http://localhost:8080/contacts/650caa43ccdc33969d76cbca
+//Local system
+### GET contacts on local
+GET http://localhost:8080/contacts
+### GET contacts by Id first contact
+GET http://localhost:8080/contacts/650caa43ccdc33969d76cbc8
+### GET contacts by Id second contact
+GET http://localhost:8080/contacts/650caa43ccdc33969d76cbc9
+### GET contacts by Id third contact
+GET http://localhost:8080/contacts/650caa43ccdc33969d76cbca
