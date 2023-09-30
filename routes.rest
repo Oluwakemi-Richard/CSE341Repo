@@ -8,6 +8,24 @@ GET https://cse341-2023-4zrm.onrender.com/contacts/650caa43ccdc33969d76cbc8
 GET https://cse341-2023-4zrm.onrender.com/contacts/650caa43ccdc33969d76cbc9
 ### GET by Id third contact
 GET https://cse341-2023-4zrm.onrender.com/contacts/650caa43ccdc33969d76cbca
+### Create single contact
+POST https://cse341-2023-4zrm.onrender.com/contacts HTTP/1.1 
+content-type: application/json
+
+{
+"firstName":"Kemi", "lastName":"Blessing", "email":"kemirichard@gmail.com", "favoriteColor":"Purple", "birthday":"26/10/1993"
+}
+### Edit Single contact 
+PUT https://cse341-2023-4zrm.onrender.com/contacts/651806faa71a4e0ed62f5762 HTTP/1.1 
+content-type: application/json
+
+{
+"firstName":"Kemi", "lastName":"Rich", "email":"kem@gmail.com", "favoriteColor":"White", "birthday":"20/02/90"
+} 
+### DELETE single contact 
+DELETE https://cse341-2023-4zrm.onrender.com/contacts/651806faa71a4e0ed62f5762 HTTP/1.1
+
+
 
 //Local system
 ### GET contacts on local
@@ -18,3 +36,19 @@ GET http://localhost:8080/contacts/650caa43ccdc33969d76cbc8
 GET http://localhost:8080/contacts/650caa43ccdc33969d76cbc9
 ### GET contacts by Id third contact
 GET http://localhost:8080/contacts/650caa43ccdc33969d76cbca
+### Create single contact
+POST http://localhost:8080/contacts HTTP/1.1 
+content-type: application/json
+
+{
+"firstName":"Temilayo", "lastName":"Blessing", "email":"kemirichard@gmail.com", "favoriteColor":"Purple", "birthday":"26/10/1993"
+}
+### Edit Single contact 
+PUT http://localhost:8080/contacts/65187f3cb1e8bde00696aeac HTTP/1.1 
+content-type: application/json
+
+{
+"firstName":"Temi", "lastName":"Richard", "email":"kem@gmail.com", "favoriteColor":"White", "birthday":"20/02/90"
+} 
+### DELETE single contact 
+DELETE http://localhost:8080/contacts/651806faa71a4e0ed62f5762 HTTP/1.1
