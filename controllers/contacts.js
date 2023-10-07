@@ -21,7 +21,7 @@ const getSingle = async (req, res, next) => {
     res.status(200).json(lists[0]);
   });
 };
-const createSingle = async (req, res) => {
+const createContact = async (req, res) => {
   const contact = {
     firstName: req.body.firstName,
     lastName: req.body.lastName,
@@ -70,4 +70,4 @@ const deleteSingle = async (req, res) => {
   }
 };
 
-module.exports = { getAll, getSingle,createSingle,updateSingle,deleteSingle};
+module.exports = { getAll, getSingle,createContact,updateSingle,deleteSingle};
